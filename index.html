@@ -1,40 +1,75 @@
-<!DOCTYPE html>
+<doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PCguide - Under Construction</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background: #0d0d0d;
-      color: #f5f5f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      padding: 2rem;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      color: #00bcd4;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #aaa;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <h1>PC Guide</h1>
+    <h2>Building and troubleshooting PCs and laptops; simplified!</h2>
+    <h3>Gaming PC Hardware - Crash Course</h3>
+    <p>Learn the basics of PC hardware and how to build a gaming PC.</p>
+    <h4>General Hardware</h4>
+    <p>Understand the components of a PC and their functions.</p>
+    <h5>CPU (Central Processing Unit)</h5>
+    <p>A CPU is the brain of the computer, responsible for processing instructions. It is also called the Central Processing Unit.</p>
+    <p>Modern CPUs have multiple cores, allowing them to handle multiple tasks simultaneously. They are essential for running applications, games, and operating systems efficiently.</p>
+    <p>When choosing a CPU, consider factors like clock speed, core count, and compatibility with your motherboard.</p>
+    <p>Popular CPU brands include AMD and Intel. AMD is known for offering excellent performance at competitive prices, especially with their Ryzen series, which provides high core counts and great multitasking capabilities. AMD CPUs are often preferred by gamers and content creators for their value and performance.</p>
+    <p>Intel, on the other hand, is renowned for its strong single-core performance and power efficiency. Intel CPUs are a great choice for tasks that rely on single-threaded performance, such as certain games and professional applications. They also have a wide range of options for laptops and desktops.</p>
+    <p>Both brands have their strengths, so your choice should depend on your specific needs and budget. I would personally recommend AMD over Intel as they have better upgradability compared to intel because of their AM4 and AM5 platforms instead of switching motherboards every few generations for new sockets.</p>
+    <p>Pro tip: The best place to get a CPU is Aliexpress! You can find great deals on CPUs, especially if you're willing to wait for shipping. Just make sure to check the seller's ratings and reviews before making a purchase.</p>
+     <h5>GPU (Graphics Processing Unit)</h5>
+    <p>The GPU is responsible for rendering images, videos, and animations. It is crucial for gaming and graphic-intensive tasks.</p>
+    <p>GPUs can be integrated (built into the CPU) or dedicated (separate hardware). Dedicated GPUs are more powerful and are recommended for gaming.</p>
+    <p>When choosing a GPU, consider factors like VRAM, clock speed, and compatibility with your motherboard.</p>
+    <p>Popular GPU brands include NVIDIA and AMD. NVIDIA is known for its powerful GPUs, especially in the high-end market, with features like ray tracing and DLSS (Deep Learning Super Sampling) that enhance gaming visuals and performance. Their GeForce RTX series is widely used by gamers and professionals alike.</p>
+    <p>AMD also offers competitive GPUs, particularly in the mid-range and budget segments. Their Radeon RX series provides excellent performance for gaming and content creation, often at a lower price point than NVIDIA's offerings. AMD GPUs are also known for their good value and performance in 1440p gaming.</p>
+    <p>Both brands have their advantages, so your choice should depend on your gaming preferences and budget. If you want the best performance and features, NVIDIA is a great choice. If you're looking for value and solid performance, AMD is worth considering.</p>
+    <p>TL;DR: Nvidia GeForce for Ray Tracing and DLSS (AI generated frames) while AMD Radeon for FPS per Dollar (price to perforance and raw power).</p>
+    <p>Pro Tip: A newer generation doesn't mean a better card! for example, a GeForce RTX 3090 is still better than an RTX 4060 because the 4060 is a budget card for 1080p Medium-Ultra settings but a 3090 is a high-end card for 1440p and maybe even 4k! On GPUs, the thousands digit is generally the generation.</p>
+    <p>Pro Tip 2: If you are looking for a budget GPU, consider the used market. You can find great deals on older GPUs that still perform well for gaming. Just make sure to check the condition and warranty before buying.</p>
+     <h5>RAM (Random Access Memory)</h5>
+    <p>RAM is temporary storage that allows your computer to access data quickly. It is essential for multitasking and running applications smoothly.</p>
+    <p>When choosing RAM, consider factors like capacity (GB), speed (MHz), and compatibility with your motherboard.</p>
+    <p>Popular RAM brands include Corsair, G.Skill, and Kingston. Corsair is known for its high-performance RAM modules, often used by gamers and enthusiasts. Their Vengeance and Dominator series are popular choices for overclocking and gaming builds.</p>
+    <p>G.Skill is another reputable brand, offering a wide range of RAM options with great performance and aesthetics. Their Ripjaws and Trident Z series are well-regarded in the gaming community.</p>
+    <p>Generally, for RAM, finding two different brands of RAM for the same specs is normal. Picking the cheaper one is usually advised by many famous PC builders like ZTT but if you have more money laying around, feel free to pick a brand you trust more even if it costs you extra.</p>
+    <p>Pro tip: Use dual channel RAM for better performance. Dual channel RAM is when you have two sticks of RAM with the same specs (speed, capacity, etc.) installed in the correct slots (2nd and 4th are the faster lanes) on your motherboard. This allows the RAM to work together and increases the memory bandwidth, resulting in better performance.</p>
+    <h5>Motherboards</h5>
+    <p>The motherboard is the main circuit board that connects all components of the computer. It houses the CPU, RAM, GPU, and other peripherals.</p>
+    <p>When choosing a motherboard, consider factors like form factor (ATX, Micro-ATX, Mini-ITX), chipset, and compatibility with your CPU and RAM.</p>
+    <p>Form factor refers to the size and layout of the motherboard. ATX is the standard size, while Micro-ATX and Mini-ITX are smaller options for compact builds.</p>
+    <p>Chipset determines the features and capabilities of the motherboard. Higher-end chipsets offer more connectivity options, overclocking support, and better performance.</p>
+    <p>Popular motherboard brands include ASUS, MSI, and Gigabyte. ASUS is known for its high-quality motherboards with excellent performance and features. Their ROG (Republic of Gamers) and TUF Gaming series is popular among gamers and enthusiasts.</p>
+    <p>MSI is another reputable brand, offering a wide range of motherboards with great performance and aesthetics. Their Gaming and Pro series are well-regarded in the gaming community.</p>
+    <p>Gigabyte is also a popular choice, known for its durable motherboards with good performance and features. Their AORUS and Ultra Durable series are well-regarded in the gaming community.</p>
+    <p>Another brand to look at is Asrock. They are known for their budget-friendly motherboards that offer good performance and features. Their Steel Legend and Phantom Gaming series are popular choices for budget builds.</p>
+    <p>When choosing a motherboard, consider your budget and the features you need. If you're building a high-end gaming PC, invest in a motherboard with good overclocking support and connectivity options. If you're on a budget, look for a motherboard that meets your basic needs without breaking the bank.</p>
+    <h5>Storage</h5>
+    <p>Storage is where your data, operating system, and applications are stored. There are two main types of storage: HDD (Hard Disk Drive) and SSD (Solid State Drive).</p>
+    <p>HDDs are traditional storage devices that use spinning disks to store data. They are slower but offer larger capacities at a lower cost. HDDs are suitable for storing large files like movies, photos, and backups.</p>
+    <p>SSDs are faster and more reliable than HDDs because they use flash memory. They significantly improve boot times, application loading, and overall system responsiveness. SSDs are recommended for your operating system and frequently used applications.</p>
+    <p>Popular storage brands include Samsung, Western Digital, and Crucial. Samsung is known for its high-performance SSDs, such as the 970 EVO and 980 PRO series. Western Digital offers a wide range of storage options, including their WD Blue and WD Black series. Crucial is another reliable brand, offering affordable SSDs with good performance.</p>
+    <p>Pro tip: Use an SSD for your operating system and a large HDD for storing files. This setup provides the best balance of speed and storage capacity.</p>
+
+    <h5>Power Supply Unit (PSU)</h5>
+    <p>The PSU provides power to all components of your PC. It is a critical component that ensures stable and reliable operation.</p>
+    <p>When choosing a PSU, consider factors like wattage, efficiency rating, and build quality. Make sure the PSU has enough wattage to support all your components, especially the GPU and CPU.</p>
+    <p>Efficiency ratings, such as 80 Plus Bronze, Gold, or Platinum, indicate how efficiently the PSU converts power. Higher efficiency ratings result in less wasted energy and lower electricity bills.</p>
+    <p>Popular PSU brands include Corsair, EVGA, and Seasonic. Corsair is known for its high-quality PSUs, such as the RM and HX series. EVGA offers reliable PSUs with good warranties, like their SuperNOVA series. Seasonic is a premium brand known for its excellent build quality and performance.</p>
+    <p>Pro tip: Never cheap out on a PSU. A low-quality PSU can damage your components or cause instability. Invest in a reputable brand with good reviews.</p>
+
+    <h5>Cooling</h5>
+    <p>Cooling is essential to keep your PC components at safe temperatures, especially during heavy workloads or gaming sessions.</p>
+    <p>There are two main types of cooling: air cooling and liquid cooling. Air cooling uses heatsinks and fans to dissipate heat, while liquid cooling uses a pump, radiator, and coolant to transfer heat away from components.</p>
+    <p>Air cooling is more affordable and easier to install, making it a popular choice for most builds. Liquid cooling provides better thermal performance and is ideal for overclocking or high-end builds.</p>
+    <p>Popular cooling brands include Noctua, Cooler Master, and NZXT. Noctua is known for its high-performance air coolers with quiet operation. Cooler Master offers a wide range of cooling solutions, including budget-friendly options. NZXT is popular for its stylish and efficient liquid coolers.</p>
+    <p>Pro tip: Ensure proper airflow in your case by using intake and exhaust fans. This helps maintain optimal temperatures and prevents overheating.</p>
+
+    <h5>Case</h5>
+    <p>The case houses all your PC components and provides protection, airflow, and aesthetics. Cases come in various sizes, such as Full Tower, Mid Tower, and Mini Tower, to accommodate different builds.</p>
+    <p>When choosing a case, consider factors like size, airflow, cable management, and build quality. Make sure the case is compatible with your motherboard's form factor and has enough space for your components.</p>
+    <p>Popular case brands include NZXT, Corsair, and Fractal Design. NZXT is known for its sleek and minimalist cases, like the H-series. Corsair offers a wide range of cases with excellent airflow and build quality. Fractal Design is popular for its clean and functional designs, such as the Meshify and Define series.</p>
+    <p>Pro tip: Choose a case with good airflow and dust filters to keep your components cool and clean. A well-ventilated case improves performance and longevity.</p>
 </head>
-<body>
-  <h1>PCguide</h1>
-  <p>Under construction. Check back soon for a guide!</p>
-</body>
-</html>
